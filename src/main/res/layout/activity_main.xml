@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="412dp"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:baselineAligned="false"
+        android:elevation="4dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/Theater_Bold"
+            android:text="SNEAKERHEAD"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            tools:layout_editor_absoluteY="80dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/SkipButton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/black"
+        android:text="Skip"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/loginButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/loginButton"
+        tools:layout_editor_absoluteY="437dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

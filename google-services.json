@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "795120674329",
+    "project_id": "sneakershop-6700d",
+    "storage_bucket": "sneakershop-6700d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795120674329:android:82da7f801bfcb5bc612c88",
+        "android_client_info": {
+          "package_name": "com.example.sneakershop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8fCi8Z65BPC6o2OzCZumcQSJCNUWSJ6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
