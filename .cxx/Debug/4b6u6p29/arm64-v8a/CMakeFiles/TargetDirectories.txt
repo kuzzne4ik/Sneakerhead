@@ -1,0 +1,3 @@
+D:/androidProject/app/.cxx/Debug/4b6u6p29/arm64-v8a/CMakeFiles/native-lib.dir
+D:/androidProject/app/.cxx/Debug/4b6u6p29/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/androidProject/app/.cxx/Debug/4b6u6p29/arm64-v8a/CMakeFiles/rebuild_cache.dir

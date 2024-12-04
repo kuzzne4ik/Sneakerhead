@@ -36,6 +36,7 @@ class RegisterActivity : AppCompatActivity() {
                             // Регистрация успешна
                             val user = auth.currentUser
                             saveUserData(user?.uid, email)
+                            startActivity(Intent(this, SneakerListActivity::class.java))
                         } else {
                             // Ошибка при регистрации
                             Toast.makeText(this, "Registration failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SneakerShop</string>
+    <string name="sneaker_image">Sneaker Image</string>
 </resources>

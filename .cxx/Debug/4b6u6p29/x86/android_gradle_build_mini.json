@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "D:\\androidProject\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\androidProject\\app\\.cxx\\Debug\\4b6u6p29\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\androidProject\\app\\.cxx\\Debug\\4b6u6p29\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "sneakershop::@6890427a1f51a3e7e1df": {
+      "artifactName": "sneakershop",
+      "abi": "x86",
+      "output": "D:\\androidProject\\app\\build\\intermediates\\cxx\\Debug\\4b6u6p29\\obj\\x86\\libsneakershop.so",
+      "runtimeFiles": []
+    }
+  }
+}
